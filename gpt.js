@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import { GoogleGenAI } from "@google/genai";
 // API Call
 export async function getPredications(singleDigit){
-    const GEMINI_API_KEY = "AIzaSyAFPsT5_YVgs1pW2mQD8c4okMx921RcsF8"; //enter your genai api key
+    const GEMINI_API_KEY = ""; //enter your genai api key
     const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
     const prompt = `Act as a 10 year experience Numerology Person.

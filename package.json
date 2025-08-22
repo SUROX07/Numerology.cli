@@ -1,0 +1,26 @@
+{
+  "name": "numerology",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "numerology": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "axios": "^1.8.4",
+    "chalk": "^5.4.1",
+    "dotenv": "^17.2.1",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.5.0",
+    "ora": "^8.2.0"
+  }
+}
